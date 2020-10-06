@@ -1,0 +1,96 @@
+[buildPlans.aosevka]
+family = "Aosevka"
+design = [
+  "sans",
+  "sp-term",
+  "ligset-clike",
+
+  "v-a-doublestorey", # a
+  "v-g-doublestorey", # g
+  "v-m-earless-single-arch-shortleg", # m
+  "v-t-flat-hook", # t
+  "v-y-cursive", # y
+  "v-capital-q-crossing", # Q
+  "v-three-flattop", # 3
+  "v-four-open-non-crossing", # 4
+  "v-six-closed-contour", # 6
+  "v-underscore-above-baseline", # hello_world
+  "v-paren-large-contour", # ()
+  "v-ampersand-et", # true && true
+  "v-percent-rings-connected", # %%%
+]
+italic = [
+  "v-a-doublestorey-tailed", # a
+  "v-h-tailed", # h
+  "v-t-standard", # t
+  "v-n-tailed", # n
+  "v-m-earless-single-arch-shortleg-tailed", # m
+]
+
+
+[buildPlans.aosevka.weights.regular]
+menu  = 400
+shape = 425
+css   = 425
+
+[buildPlans.aosevka.weights.bold]
+menu  = 700
+shape = 700
+css   = 700
+
+[buildPlans.aosevka.slopes]
+upright = "normal"
+italic = "italic"
+
+[buildPlans.aosevka.widths.normal]
+shape = 576 # Unit Width, measured in 1/1000 em.
+menu  = 5 # Width grade for the font's names.
+css   = "expanded" # "font-stretch' property of webfont CSS.
+
+[buildPlans.aosevka-compressed]
+family = "Aosevka Compressed"
+design = [
+  "sans",
+  "sp-term",
+  "ligset-clike",
+
+  "v-a-doublestorey", # a
+  "v-g-doublestorey", # g
+  "v-m-earless-single-arch-shortleg", # m
+  "v-t-flat-hook", # t
+  "v-y-cursive", # y
+  "v-capital-q-crossing", # Q
+  "v-three-flattop", # 3
+  "v-four-open-non-crossing", # 4
+  "v-six-closed-contour", # 6
+  "v-underscore-above-baseline", # hello_world
+  "v-paren-large-contour", # ()
+  "v-ampersand-et", # true && true
+  "v-percent-rings-connected", # %%%
+]
+italic = [
+  "v-a-doublestorey-tailed", # a
+  "v-h-tailed", # h
+  "v-t-standard", # t
+  "v-n-tailed", # n
+  "v-m-earless-single-arch-shortleg-tailed", # m
+]
+
+[buildPlans.aosevka-compressed.weights.regular]
+menu  = 400
+shape = 425
+css   = 425
+
+[buildPlans.aosevka-compressed.weights.bold]
+menu  = 700
+shape = 700
+css   = 700
+
+[buildPlans.aosevka-compressed.slopes]
+upright = "normal"
+italic = "italic"
+
+[buildPlans.aosevka-compressed.widths.normal]
+shape = 500 # Unit Width, measured in 1/1000 em.
+menu  = 5 # Width grade for the font's names.
+css   = "normal" # "font-stretch' property of webfont CSS.
