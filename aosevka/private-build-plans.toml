@@ -3,19 +3,34 @@ family = "Aosevka"
 design = [
   "sans",
   "sp-term",
-  "ligset-clike",
+
+  "calt-arrow", # => ->
+  "calt-ineq", # >= <=
+  "calt-eqeq", # == !=
+  "calt-center-ops",
+  "calt-exeq", # != !==
+  "calt-exeq-alt-1", # !=
+  "calt-brst", # (* *)
+  "calt-plusplus", # +++++
+  "calt-kern-dotty", # std::cout ::: :=
+  "calt-llgg", # << >>
+  "calt-llggeq", # >>= <<=
+  "calt-dotoper", # ...
+  "calt-html-comment", # <!---
 
   "v-a-doublestorey", # a
   "v-g-doublestorey", # g
   "v-m-earless-single-arch-shortleg", # m
+  "v-n-earless-rounded-straight", #n
   "v-t-flat-hook", # t
+  "v-u-without-bar", # u
   "v-y-cursive", # y
+  "v-w-curly", # w
   "v-capital-q-crossing", # Q
   "v-three-flattop", # 3
   "v-four-open-non-crossing", # 4
   "v-six-closed-contour", # 6
   "v-underscore-above-baseline", # hello_world
-  "v-paren-large-contour", # ()
   "v-ampersand-et", # true && true
   "v-percent-rings-connected", # %%%
 ]
@@ -23,8 +38,9 @@ italic = [
   "v-a-doublestorey-tailed", # a
   "v-h-tailed", # h
   "v-t-standard", # t
-  "v-n-tailed", # n
+  "v-n-earless-rounded-tailed", # n
   "v-m-earless-single-arch-shortleg-tailed", # m
+  "v-q-tailed", # q
 ]
 
 
@@ -52,19 +68,34 @@ family = "Aosevka Compressed"
 design = [
   "sans",
   "sp-term",
-  "ligset-clike",
+
+  "calt-arrow", # => ->
+  "calt-ineq", # >= <=
+  "calt-eqeq", # == !=
+  "calt-center-ops",
+  "calt-exeq", # != !==
+  "calt-exeq-alt-1", # !=
+  "calt-brst", # (* *)
+  "calt-plusplus", # +++++
+  "calt-kern-dotty", # std::cout ::: :=
+  "calt-llgg", # << >>
+  "calt-llggeq", # >>= <<=
+  "calt-dotoper", # ...
+  "calt-html-comment", # <!---
 
   "v-a-doublestorey", # a
   "v-g-doublestorey", # g
   "v-m-earless-single-arch-shortleg", # m
+  "v-n-earless-rounded-straight", #n
   "v-t-flat-hook", # t
+  "v-u-without-bar", # u
   "v-y-cursive", # y
+  "v-w-curly", # w
   "v-capital-q-crossing", # Q
   "v-three-flattop", # 3
   "v-four-open-non-crossing", # 4
   "v-six-closed-contour", # 6
   "v-underscore-above-baseline", # hello_world
-  "v-paren-large-contour", # ()
   "v-ampersand-et", # true && true
   "v-percent-rings-connected", # %%%
 ]
@@ -72,8 +103,9 @@ italic = [
   "v-a-doublestorey-tailed", # a
   "v-h-tailed", # h
   "v-t-standard", # t
-  "v-n-tailed", # n
+  "v-n-earless-rounded-tailed", # n
   "v-m-earless-single-arch-shortleg-tailed", # m
+  "v-q-tailed", # q
 ]
 
 [buildPlans.aosevka-compressed.weights.regular]
